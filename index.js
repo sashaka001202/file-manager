@@ -25,7 +25,6 @@ const readl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
 });
-
 const username = process.argv[2].split('=')[1]
 console.log(`Thank you for using File Manager, ${username}!`);
 
